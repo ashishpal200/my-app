@@ -1,0 +1,109 @@
+.intro{
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem
+}
+.i-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.i-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.i-name>:nth-child(1){
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.i-name>:nth-child(2){
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.i-name>:nth-child(3){
+    font-weight: 100;
+    font-size: 14px;
+    color: var(--gray);
+    margin-top: 10px;
+}
+
+.i-button{
+    width: 6rem;
+    height: 2rem;
+}
+
+.i-icon{
+    margin-top: 3rem;
+    display: flex;
+    gap: 0rem;
+}
+
+.i-icon>*{
+    transform: scale(0.5);
+}
+
+.i-icon>*:hover{
+    cursor: pointer;
+}
+
+.i-right{
+    flex: 1;
+}
+
+.i-right {
+    flex: 1;
+    position: relative;
+  }
+  .i-right > * {
+    position: absolute;
+    z-index: 1;
+  }
+
+  .i-right > :nth-child(1) {
+    
+
+    height: 400px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5% auto;
+    margin-left: 80px;
+    padding:12px;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;  ;
+    
+    
+  }
+
+
+
+  @media screen and (max-width: 480px) {
+    .intro {
+      flex-direction: column;
+      gap: 7rem;
+      height: 64rem;
+    }
+
+    .i-right {
+        transform: scale(0.8);
+        left: -5.5rem;
+      }
+
+
+}
+  

@@ -1,0 +1,87 @@
+.works{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 50vh;
+    margin-top: 4rem;
+}
+
+.sidebar {
+    flex: 3;
+    height: fit-content;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #fdfbfb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+.w-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .SlidebarTitle {
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: solid 1px #a7a4a4;
+    border-bottom: solid 1px #a7a4a4;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+    font-size: 20px;
+    line-height: 19px;
+    color: var(--orange);
+    font-weight: 600;
+  }
+
+  .SlidebarList {
+    list-style-type: none;
+    margin-bottom: 30px;
+    color: var(--black);
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .SlidebarListItem {
+    display: inline-block;
+    width: 50%;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+
+
+
+
+
+  @media screen and (max-width: 480px) {
+    .works {
+      flex-direction: column;
+      height: 55rem;
+      padding: 0;
+      gap: 5rem;
+      
+    }
+  
+    .w-right {
+      display: flex;
+      align-items: flex-start;
+      justify-content:start;
+      transform: scale(1.1);
+      margin-bottom: 30px;
+    }
+
+    
+    .w-mainCircle{
+      position: static;
+    }
+    .w-backCircle{
+      left: 8rem!important;
+    }
+  
+  }
+  
