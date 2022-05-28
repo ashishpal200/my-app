@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.084ba215.css",
+    "main.js": "/my-app/static/js/main.87b1331f.js",
+    "static/js/787.28cb0dcd.chunk.js": "/my-app/static/js/787.28cb0dcd.chunk.js",
+    "static/media/ashish.jpg": "/my-app/static/media/ashish.26aede4f6c6e2af4d661.jpg",
+    "static/media/ecommerce.png": "/my-app/static/media/ecommerce.522da76635d52117102b.png",
+    "static/media/sidebar.png": "/my-app/static/media/sidebar.b2225070b8adae68d063.png",
+    "static/media/musicapp.png": "/my-app/static/media/musicapp.f1c301f91904ef5f9249.png",
+    "static/media/hoc.png": "/my-app/static/media/hoc.e6af51fc04c57ae67096.png",
+    "static/media/humble.png": "/my-app/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/my-app/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/wave.png": "/my-app/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/glasses.png": "/my-app/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "index.html": "/my-app/index.html",
+    "main.084ba215.css.map": "/my-app/static/css/main.084ba215.css.map",
+    "main.87b1331f.js.map": "/my-app/static/js/main.87b1331f.js.map",
+    "787.28cb0dcd.chunk.js.map": "/my-app/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.084ba215.css",
+    "static/js/main.87b1331f.js"
+  ]
+}
